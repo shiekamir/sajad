@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشيخ أمير القريشي</title>
+    <style>
+        /* التصميم العام */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            color: #2d3748;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+
+        /* العنوان الرئيسي */
+        h1 {
+            font-size: 2.5rem;
+            color: #1a365d;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-out;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #2b6cb0;
+            margin-bottom: 15px;
+            animation: fadeIn 2.5s ease-out;
+        }
+
+        /* التصميم العام للصفحة */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* الصورة */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        /* الأقسام */
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: linear-gradient(145deg, #ffffff, #f9f9f9);
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+            transition: box-shadow 0.3s ease;
+            animation: fadeIn 3s ease-out;
+        }
+
+        .section:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #4a5568;
+        }
+
+        /* التذييل */
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #1a365d;
+            color: #fff;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 3.5s ease-out;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* تأثيرات إضافية */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* قوائم التنقل */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a365d;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #f8f9fa;
+        }
+
+        /* روابط اليوتيوب */
+        .youtube-link {
+            font-weight: bold;
+            color: #2b6cb0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .youtube-link:hover {
+            color: #e74c3c;
+        }
+
+        /* تحسينات للجوال */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .section p {
+                font-size: 1rem;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+    <!-- خطوط Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- مكتبة FontAwesome للإيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about"><i class="fas fa-user"></i> عن الشيخ</a>
+        <a href="#journey"><i class="fas fa-book"></i> رحلته العلمية</a>
+        <a href="#positions"><i class="fas fa-bullhorn"></i> مواقفه</a>
+        <a href="#style"><i class="fas fa-chalkboard-teacher"></i> أسلوبه</a>
+        <a href="#legacy"><i class="fas fa-monument"></i> إرثه</a>
+        <a href="#lecture"><i class="fas fa-video"></i> محاضراته</a>
+    </div>
+
+    <div class="container">
+        <h1>الشيخ أمير القريشي</h1>
+        <img src="https://k.top4top.io/p_3315y5lxq1.png" alt="صورة الشيخ أمير القريشي">
+        
+        <div class="section" id="about">
+            <h2>عن الشيخ</h2>
+            <ul>
+                <li><strong>الشيخ أمير القريشي</strong> هو واحد من الشخصيات البارزة في الساحة الدينية.</li>
+                <li>استطاع أن يؤثر بعمق في وجدان محبيه وتلاميذه من خلال علمه، شجاعته، وتفانيه في نشر الفكر والعقيدة.</li>
+                <li>لم يكن مجرد خطيب أو داعية، بل كان مدرسة قائمة بذاتها، يُعلم أتباعه حب الحقيقة والتمسك بالمبادئ مهما كانت التحديات.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="journey">
+            <h2>نشأته ورحلته في طلب العلم</h2>
+            <ul>
+                <li>وُلِد الشيخ أمير القريشي في بغداد، وعاش منذ صغره في بيئة دينية متواضعة مليئة بالإيمان والتقوى.</li>
+                <li>بدأ مسيرته في خدمة الدين منذ سنواته الأولى، حيث كان صوتًا حسينيًا في المواكب والفعاليات الدينية.</li>
+                <li>أصبح شابًا يجمع بين القوة الجسدية والفكرية، فهو لم يكن عالمًا فقط، بل كان أيضًا رياضيًا بارعًا حاصلًا على الحزام الأسود في التايكوندو.</li>
+                <li>اختار طريق العقيدة السليمة عن اهل البيت الخالقين الرازقين المفوض لهم في كل شي ، حيث كرّس نفسه للعلم والمعرفة، ونهل من بحور علوم آل البيت (عليهم السلام).</li>
+                <li>تميز الشيخ بشغفه الكبير بالبحث والتدقيق، ولم يكن مجرد ناقل للمعرفة، بل كان مبدعًا في طرح القضايا وتحليلها.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="positions">
+            <h2>مواقفه وشجاعته في قول الحق</h2>
+            <ul>
+                <li>عرف الشيخ أمير القريشي بجرأته في الدفاع عن العقيدة وعدم التهاون في قول كلمة الحق.</li>
+                <li>لم يكن يخشى أي قوة في العالم عندما كان الأمر متعلقًا ببيان الحقيقة وكشف زيف الباطل.</li>
+                <li>واجه الشيخ محناً كثيرة بسبب مواقفه الصريحة، ولكن ذلك لم يزده إلا صلابة وثباتًا.</li>
+                <li>كان يؤمن بأن العالم الديني الحقيقي لا يخاف السجن أو الاتهامات أو التشويه، بل يحمل رسالته بكل شجاعة مهما كلفه الأمر.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="style">
+            <h2>أسلوبه في التعليم والتوجيه</h2>
+            <ul>
+                <li>لم يكن الشيخ أمير مجرد خطيب يلقي المحاضرات، بل كان مربيًا بكل ما تحمله الكلمة من معنى.</li>
+                <li>كان يهتم بتلاميذه ويحرص على توعيتهم دينيًا وأخلاقيًا، ويحثهم على أن يكونوا مثالًا للوعي والعلم والالتزام.</li>
+                <li>كان دائمًا يقول: <strong>"ليس العلم أن تحفظ الكلمات، بل أن تعيشها وتطبقها وتكون قدوة لغيرك."</strong></li>
+                <li>كان يتعامل مع الجميع بحب وأخلاق عالية، حيث لم يكن يعتبر تلاميذه مجرد مستمعين، بل كان يراهم امتدادًا لفكره ورسالة آل البيت (عليهم السلام).</li>
+            </ul>
+        </div>
+
+        <div class="section" id="legacy">
+            <h2>إرثه وتأثيره</h2>
+            <ul>
+                <li>اليوم، يُعتبر الشيخ أمير القريشي أحد أبرز الشخصيات الدينية المؤثرة، حيث استطاع أن يبني جيلًا واعيًا، يحمل راية العقيدة بقلوب صادقة وأذهان متقدة.</li>
+                <li>ترك إرثًا فكريًا غنيًا مليئًا بالمعرفة والحكمة، وكان مثالًا للعالم الذي يعيش لأجل رسالته، وليس لأجل الدنيا أو الشهرة.</li>
+                <li>على الرغم من كل التحديات، يبقى اسمه خالدًا في قلوب محبيه، وتبقى كلماته نورًا يُضيء طريق الباحثين عن الحقيقة.</li>
+                <li>كان يقول دائمًا: <strong>"إذا أردت أن تعيش لله ومحمد واهل بيته، فلا تخف من أي شيء في الدنيا."</strong></li>
+            </ul>
+        </div>
+
+        <div class="section" id="lecture">
+            <h2>محاضراته</h2>
+            <ul>
+                <li>قناة الشيخ أمير القريشي على اليوتيوب: 
+                    <a class="youtube-link" href="https://www.youtube.com/@AL-MUNTAQIM/featured" target="_blank"><i class="fab fa-youtube"></i> المنتقم عليه السلام</a>
+                </li>
+                <li>محاضرة الشيخ الشهيرة: 
+                    <a class="youtube-link" href="https://www.youtube.com/live/P8o849Lbp4o?si=QTtrcnyciqm5RC_V" target="_blank"><i class="fas fa-video"></i> بداية التوحيد: محمد وعلي الخالقين الرازقين المفوض لهم في كل شيء</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>جميع الحقوق محفوظة &copy; 2025 | موقع تلميذ الشيخ أمير القريشي | العلامة سجاد القريشي</p>
+        </div>
+    </div>
+</body>
+</html>
